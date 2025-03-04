@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(63, 94, 251);
+    /* body background-color는 https://cssgradient.io/로 들어가서 컬러를 만듬 */
+    background: linear-gradient(90deg, rgba(63, 94, 251, 1) 0%, rgba(36, 70, 235, 1) 0%, rgba(44, 140, 239, 1) 19%, rgba(50, 157, 242, 1) 33%, rgba(53, 185, 244, 1) 49%, rgba(64, 216, 249, 1) 91%, rgba(70, 233, 252, 1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#timer{
+    background-color: aliceblue;
+    padding: 40px;
+    border-radius: 30px;
+    min-width: 400px;
+    text-align: center;
+    border: 3px solid white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.13);
+}
+
+.time{
+    font-size: 100px;
+    color: rgba(63, 94, 251, 1);
+    margin-bottom: 20px;
+}
+
+#timer button{
+    padding: 10px 20px;
+    border: 1px solid white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.13);
+    border-radius: 5px;
+    margin: 0 2px;
+    cursor: pointer;
+    color: #575757;
+}
