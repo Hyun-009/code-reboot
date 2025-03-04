@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#container{
+    background-color: #fff;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+#container h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.wordChain{
+    font-size: 18px;
+    margin: 20px 0;
+}
+.currentWord{
+    font-weight: bold;
+    font-size: 30px;
+    color: #2ecc71;
+}
+.userinput{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.userinput.userinput:focus{
+    box-shadow: -4 -4px 8px rgba(0, 0, 0, 0.1);
+}
+.submitButton{
+    margin: 20px 0;
+    border: none;
+    padding: 10px 20px;
+    background-color: #2ecc71;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.message{
+    min-height: 40px;
+}
